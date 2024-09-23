@@ -15,7 +15,7 @@
         <nav>
 
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -37,20 +37,47 @@
 
         <div id="projects">
 
-            <div class="project-div">
-                <a href="https://sisadm.github.io/Registration-Form/"><img src="./assets/img/page1.png" alt="first webpage" style="width: 500px"></a>
-                <p>This is my first sign up page for a newsletter, using form elements.  <span>(click on the image and you will be directed to the page).</span> </p>
-            </div>
+            <h3>Projects</h3>
 
-            <div class="project-div">
-                <a href=""><img src="./assets/img/page2.png" alt="second webpage" style="width: 500px"></a>
-                <p>On this website, you'll find an employee directory where you can view detailed information about each employee by simply clicking on their profile card. <span>(click on the image and you will be directed to the page).</span> </p>
-            </div>
-            
+            <section>
+                <div class="project-div">
+                    <a href="https://sisadm.github.io/Registration-Form/"><img src="./assets/img/page1.png" alt="first webpage" style="width: 500px"></a>
+                    <p>This is my first sign up page for a newsletter, using form elements.  <span>(click on the image and you will be directed to the page).</span> </p>
+                </div>
+
+                <div class="project-div">
+                    <a href="https://sisadm.github.io/Employee-Directory/"><img src="./assets/img/page2.png" alt="second webpage" style="width: 500px"></a>
+                    <p>On this website, you'll find an employee directory where you can view detailed information about each employee by simply clicking on their profile card. Also can search by typing letter into search box. <span>(click on the image and you will be directed to the page).</span> </p>
+                </div>
+            </section>
 
         </div>
 
         <div id="contact">
+
+            <h3>Contact me!</h3>
+
+            <section>
+                <form action="example.php">
+
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                    <br>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message"></textarea>
+ 
+                    <br>
+                    <br>
+                    
+                    <input type="reset"  id="restet" value="Reset">
+                    <input type="submit" id="submit" value="Submit">
+                    
+                </form>
+            </section>
+
 
         </div>
 
