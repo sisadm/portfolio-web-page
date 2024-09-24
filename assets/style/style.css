@@ -16,7 +16,7 @@
 /* body overflowing */
 body {
     margin-top: -10px;
-    overflow: hidden;
+
 }
 
 /* header */
@@ -28,19 +28,21 @@ header {
 
 header h2 {
     font-size: 2em;
-    margin: 5px;
+    margin: 10px;
+    margin-left: 2em;
 }
 
 nav {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header li {
     display: inline-block;
     height: 20px;
-    width: 75px;
+    width: 80px;
     margin: 5px;
     background-color: aliceblue;
     text-align: center;
@@ -59,7 +61,7 @@ header img {
     width: 125px;
     position: absolute;
     top: 5em;
-    left: 1em;
+    left: 2.5em;
 }
 
 /* empty div height */
@@ -70,6 +72,48 @@ header img {
 
 /* main */
 
+/* about */
 #about {
     height: 5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#about p {
+    width: 24em;
+    font-size: 20px;
+}
+
+
+/* projects */
+
+
+
+#projects {
+    margin: 10px auto;
+    width: 90%;
+}
+
+#projects h3 {
+    height: 3em;
+    
+}
+
+#projects section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-div {
+    width: 45%;
+}
+
+.project-div img {
+    height: 250;
+    width: 400px !important;
+}
+
+
+.project-div p {
+    width: 400px;
 }
