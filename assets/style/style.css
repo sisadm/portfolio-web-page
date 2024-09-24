@@ -13,6 +13,7 @@
     text-decoration: none;
 }
 
+/* body overflowing */
 body {
     margin-top: -10px;
     overflow: hidden;
@@ -49,4 +50,26 @@ header li {
 
 header a {
     color: black;
+}
+
+/* profile image */
+
+header img {
+    height: 150px;
+    width: 125px;
+    position: absolute;
+    top: 5em;
+    left: 1em;
+}
+
+/* empty div height */
+
+#emptyDiv {
+    height: 5em;
+}
+
+/* main */
+
+#about {
+    height: 5em;
 }
