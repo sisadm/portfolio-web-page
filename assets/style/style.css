@@ -16,7 +16,7 @@
 /* body overflowing */
 body {
     margin-top: -10px;
-
+    background-color: rgb(190, 196, 200);
 }
 
 /* header */
@@ -128,3 +128,40 @@ main {
 
 /* contact */
 
+#contact {
+    margin: 10px;
+}
+
+#contact form {
+    width: 30%;
+    margin: 10px auto;
+}
+
+#contact label {
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+#name, #email, #message{
+
+    border: 3px solid #000;
+    border-radius: 5px;
+    height: 50px;
+    line-height: normal;
+    color: #282828;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    user-select: auto;
+    font-size: 16px;
+    padding: 0 6px;
+    padding-left: 12px;   
+}
+
+#reset, #submit {
+    border: 3px solid #000;
+    border-radius: 5px;
+    height: 3em;
+    width: 5em;
+    font-size: 1em;
+}
