@@ -129,7 +129,7 @@ main {
 /* contact */
 
 #contact {
-    margin: 10px;
+    margin: 3em 10px;
 }
 
 #contact form {
@@ -164,4 +164,16 @@ main {
     height: 3em;
     width: 5em;
     font-size: 1em;
+}
+
+footer {
+    margin: 2em;
+    height: 5em;
+    text-align: center;
+
+}
+
+footer p {
+    font-size: 8px;
+    line-height: 20em;
 }
