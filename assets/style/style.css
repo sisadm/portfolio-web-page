@@ -3,11 +3,50 @@
 
 
 /* universal selector */
+
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "Inter", 'Times New Roman', Times;
     list-style: none;
+    text-decoration: none;
 }
 
+body {
+    margin-top: -10px;
+    overflow: hidden;
+}
+
+/* header */
+
+header {
+    height: 10em;
+    background: linear-gradient(90deg, rgba(250,217,179,1) 35%, rgba(199,144,238,1) 100%);
+}
+
+header h2 {
+    font-size: 2em;
+    margin: 5px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header li {
+    display: inline-block;
+    height: 20px;
+    width: 75px;
+    margin: 5px;
+    background-color: aliceblue;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+header a {
+    color: black;
+}
