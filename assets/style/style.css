@@ -24,6 +24,8 @@ body {
 header {
     height: 10em;
     background: linear-gradient(90deg, rgba(250,217,179,1) 35%, rgba(199,144,238,1) 100%);
+    display: flex;
+    justify-content: space-between;
 }
 
 header h2 {
@@ -33,10 +35,7 @@ header h2 {
 }
 
 nav {
-    position: absolute;
-    top: 2%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 10px;
 }
 
 header li {
@@ -104,11 +103,12 @@ main {
 
 #projects section {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-div {
-    width: 45%;
+    width: 450px;
 }
 
 .project-div img {
@@ -131,6 +131,7 @@ main {
 #contact {
     margin: 3em 10px;
 }
+
 
 #contact form {
     width: 30%;
