@@ -72,11 +72,15 @@ header img {
 
 /* main */
 
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* about */
 #about {
     height: 5em;
-    width: 90%;
-    margin: 0 auto;
+    
 }
 
 #about p {
@@ -91,7 +95,6 @@ header img {
 
 #projects {
     margin: 10px auto;
-    width: 90%;
 }
 
 #projects h3 {
@@ -116,4 +119,12 @@ header img {
 
 .project-div p {
     width: 400px;
+    margin: 10px;
 }
+
+.project-div span {
+    font-size: 12px;
+}
+
+/* contact */
+
