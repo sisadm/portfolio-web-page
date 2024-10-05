@@ -6,7 +6,46 @@
 
 }
 
+/* universal selector */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", 'Times New Roman', Times;
+    list-style: none;
+    text-decoration: none;
+}
 
+
+ /* header  */
 #header {
     background: linear-gradient(90deg, var(--bg-color-one) 35%, var(--bg-color-two) 100%);
+}
+
+#header img {
+    width: 100px;
+    right: 5%;
+    bottom: -42px;
+}
+
+#header li {
+    height: 30px;
+    width: 80px;
+    margin: 5px;
+    background-color: aliceblue;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+/* media quer */
+
+
+/* medium screen */
+
+@media (min-width: 576px) {
+    
+
+
 }
