@@ -1,0 +1,12 @@
+/* variables */
+:root {
+
+    --bg-color-one: rgba(250,217,179,1);
+    --bg-color-two: rgba(199,144,238,1);
+
+}
+
+
+#header {
+    background: linear-gradient(90deg, var(--bg-color-one) 35%, var(--bg-color-two) 100%);
+}
