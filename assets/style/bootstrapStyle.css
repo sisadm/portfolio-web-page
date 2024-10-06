@@ -115,6 +115,22 @@ footer p {
 
 
 /* large screen */
-@media (min-width: 993px) {
+@media (min-width: 992px) {
+
+    /* contact width */
+    #contact {
+        width: 50%;
+    }
+
+}
+
+/* extra large screen */
+
+@media (min-width: 1440px) {
+    
+    body {
+        max-width: 1440px !important;
+        margin: 0 auto;
+    }
     
 }
