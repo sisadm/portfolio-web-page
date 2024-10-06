@@ -56,6 +56,10 @@
 
 /* main */
 
+main {
+    margin: 1rem auto !important;
+}
+
 
 #projects .project-div {
     background-color: rgb(244, 212, 173);
@@ -80,13 +84,37 @@
     border-width: 0;
 }
 
-/* media quer */
+
+/* footer */
+
+footer p {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 10px;
+}
+/* media queries */
 
 
 /* medium screen */
 
-@media (min-width: 576px) {
+/* medium screen */
+@media (min-width: 768px) {
+
+    /* header */
+    #header {
+        height: 10em;
+    }
+
+    #header img {
+        width: 150px;
+        left: 5%;
+        bottom: -63px;
+    }
+
+}
+
+
+/* large screen */
+@media (min-width: 993px) {
     
-
-
 }
