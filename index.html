@@ -72,20 +72,26 @@
                 <section>
                     <form action="example.php">
 
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" id="name">
-                        <br>
-                        <label for="email">Email:</label>
-                        <input type="text" name="email" id="email">
-                        <br>
-                        <label for="message">Message:</label>
-                        <textarea name="message" id="message"></textarea>
-    
+                        <div class="form-outline mb-4">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" name="name" id="name" class="form-control">
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="text" name="email" id="email"class="form-control">
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label for="message" class="form-label">Message:</label>
+                            <textarea name="message" id="message" class="form-control"></textarea>
+                        </div>    
+
                         <br>
                         <br>
                         
-                        <input type="reset"  id="reset" value="Reset">
-                        <input type="submit" id="submit" value="Submit">
+                        <input type="reset"  id="reset" value="Reset" class="btn btn-primary btn-block mb-4">
+                        <input type="submit" id="submit" value="Submit" class="btn btn-primary btn-block mb-4">
                         
                     </form>
                 </section>
