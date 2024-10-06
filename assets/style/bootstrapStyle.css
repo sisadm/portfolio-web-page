@@ -1,3 +1,12 @@
+/* font families */
+
+/* for the page */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* for the name */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 /* variables */
 :root {
 
@@ -11,7 +20,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: "Inter", 'Times New Roman', Times;
+    font-family: "Roboto", 'Times New Roman', Times;
     list-style: none;
     text-decoration: none;
 }
@@ -20,6 +29,11 @@
  /* header  */
 #header {
     background: linear-gradient(90deg, var(--bg-color-one) 35%, var(--bg-color-two) 100%);
+}
+
+#header h2 {
+    font-family: "Anton", sans-serif !important;
+    letter-spacing: 2px;
 }
 
 #header img {
@@ -38,6 +52,26 @@
     border-radius: 10px;
 }
 
+
+
+/* main */
+
+
+#projects .project-div {
+    background-color: rgb(244, 212, 173);
+    border-radius: 0 0 10px 10px;
+}
+
+#projects p {
+    font-size: 13px !important;
+    width: 80%;
+    margin: 1em auto;
+}
+
+#projects .firstLetter {
+    font-size: 16px;
+    font-weight: bold;
+}
 
 /* media quer */
 
